@@ -3,6 +3,7 @@ let keypair;
 
 //generate keypair (public and secret key)
 (async () => {
+    //knkjn
     await libsodium.ready;
     keypair = libsodium.crypto_sign_keypair();
 })();
